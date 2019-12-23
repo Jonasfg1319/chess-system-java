@@ -10,7 +10,7 @@ public class Piece {
 	   position = null; //não precisa colocar, pq por padrão ja vai ser nulo
    }
     
-   public Board getBoard() 
+   protected Board getBoard() 
    {
 	   return board;
    }
